@@ -42,7 +42,7 @@ A web-based management interface that allows employees to view, create, edit, an
 
 - FastAPI
   -C#
-  -Superbase
+  -Supabase
 
 ### Tools
 
