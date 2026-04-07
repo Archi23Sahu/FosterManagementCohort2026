@@ -1,0 +1,47 @@
+import api from "./axios";
+import type { CreateAnimalDto } from "../../types/animalType";
+import type { Animal } from "../../types/animalType";
+
+export const getAnimals  = async() => {
+  const res = await api.get<Promise<Animal[]>>("/Animal");
+  
+  
+  return res.data;
+
+
+};
+
+export const getAnimalById = async (id: number) => {
+  const res = await api.get(`/Animal/${id}`);
+  return res.data;
+};
+
+export const createAnimal = async (animal: CreateAnimalDto) => {
+  const res = await api.post("/Animal", animal);
+  return res.data;
+};
+
+export const updateAnimal = async (id: number, animal: CreateAnimalDto) => {
+  const res = await api.put(`/Animal/${id}`, animal);
+  return res.data;
+};
+
+export const deleteAnimal = async (id: number) => {
+  const res = await api.delete(`/Animal/${id}`);
+  return res.data;
+};
+
+export const getAnimalFosterHome = async (animalId: number) => {
+  const res = await api.get(`/Animal/${animalId}/foster-home`);
+  return res.data;
+};
+
+export const assignPetToFosterHome = async (animalId: number, fosterHomeId: number) => {
+  const res = await api.post(`/Animal/${animalId}/assign`, { fosterHomeId });
+  return res.data;
+};
+
+export const getAnimalSeverities = async (): Promise<{ animalId: number; severity: string }[]> => {
+  const res = await api.get<{ animalId: number; severity: string }[]>("/AnimalCondition/severity/animals");
+  return res.data;
+};

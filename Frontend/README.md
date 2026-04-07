@@ -1,5 +1,3 @@
-# 2026-CohortTeam-Deja-Kelvin
-
 # Smarter Foster Management for Safer Animal Care
 
 ## Overview
@@ -64,41 +62,57 @@ Open **Git Bash**, **PowerShell**, **Command Prompt**, or the terminal in **VS C
 
 Use the `cd` command to move into the project directory.
 
-### 3. Install Dependencies
 ```bash
 cd your-project-folder
+### 3. Install Dependencies
 npm install
+   .
 
-# Start the development server
-npm run dev
+   4. Start the development server
+   npm run dev
 
-# Open the app in your browser
-http://localhost:5173/
-```
+   5. Open the app in your browser
+   http://localhost:5173/
+
 ## Team Members
 
+1. Dennis
+   Email: dennisgarcia.appdev@gmail.com
+   GitHub: https://github.com/dgarcia-appdev
+   LinkedIn: https://www.linkedin.com/in/dgarcia-appdev/Garcia/
 
-### Tiffany
-- Email: scooter3229@gmail.com
-- GitHub: https://github.com/TiffanyClark
-- LinkedIn: https://www.linkedin.com/in/tiffanyclark09/
+2. Kelvin
+   Email: kelnguyen9@gmail.com
+   GitHub: https://github.com/callmecelsius
+   LinkedIn: https://www.linkedin.com/in/kelvincelsius/
 
-### Benjamin
-- Email: b.keller2890@gmail.com
-- GitHub: https://github.com/bkeller2890
-- LinkedIn: https://www.linkedin.com/in/benjamin-keller-computer-scientist/
+3. Tiffany
+   Email: scooter3229@gmail.com
+   GitHub: https://github.com/TiffanyClark
+   LinkedIn: https://www.linkedin.com/in/tiffanyclark09/
 
-### Nate
-- Email: nathan.levi8@gmail.com
-- GitHub: https://github.com/NateLevi
-- LinkedIn: https://www.linkedin.com/in/natelevi/
+4. Benjamin
+   Email: b.keller2890@gmail.com
+   GitHub: https://github.com/bkeller2890
+   LinkedIn: https://www.linkedin.com/in/benjamin-keller-computer-scientist/
 
-### Nathan
-- Email: nathannguyen555@gmail.com
-- GitHub: https://github.com/natenguyen100
-- LinkedIn: https://www.linkedin.com/in/nathannguyen1000/
+5. Claudia
+   Email: claudiamora0917@gmail.com
+   GitHub: https://github.com/CV17-09
+   LinkedIn: https://www.linkedin.com/in/claudia-v-dominguez-1b5802176
 
-### Archi
-- Email: archi.sahu95@gmail.com
-- GitHub: https://github.com/Archi23Sahu
-- LinkedIn: https://www.linkedin.com/in/archisahu/
+6. Nate
+   Email: nathan.levi8@gmail.com
+   GitHub: https://github.com/NateLevi
+   LinkedIn: https://www.linkedin.com/in/natelevi/
+
+7. Nathan
+   Email: nathannguyen555@gmail.com
+   GitHub: https://github.com/natenguyen100
+   LinkedIn: https://www.linkedin.com/in/nathannguyen1000/
+
+8. Archi
+   Email: archi.sahu95@gmail.com
+   GitHub: https://github.com/Archi23Sahu
+   LinkedIn: https://www.linkedin.com/in/archisahu/
+```
