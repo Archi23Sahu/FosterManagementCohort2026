@@ -35,12 +35,12 @@ A web-based management interface that allows employees to view, create, edit, an
 
 - React
 - TypeScript
-- Tailwind CSS
-- React Router
+- Material UI
+
 
 ### Backend
 
-- FastAPI
+- .Net Core
   -C#
   -Supabase
 
