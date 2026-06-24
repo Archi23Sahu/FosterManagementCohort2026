@@ -9,7 +9,9 @@ A web-based management interface that allows employees to view, create, edit, an
 ### About the Project
 
 This project was developed during a 6-week cohor(Feb-March 2026). A team of developers who created Pet Foster Project where users can adopt and foster animals. Users have the option to buy products for their pets. Employees have the option approve pet requests for pet parents
-
+Git URL: https://github.com/callmecelsius/2026-CohortTeam-Deja-Kelvin
+Video: https://drive.google.com/file/d/1uQxsAG_DExti3D8X0a_XxY8VW_ijY8yZ/view
+Presentation: https://www.youtube.com/watch?v=YdJNR8H2-qQ&t=24s
 ---
 
 # Foster Homes Management System
